@@ -1,0 +1,10 @@
+---
+- name: Install virtualisation host
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+
+    - name: Include role install_virthost from collection zilux.tools
+      include_role: 
+        name: zilux.tools.install_virthost
