@@ -6,5 +6,5 @@
   tasks:
 
     - name: Include role install_virthost from collection zilux.tools
-      include_role: 
+      ansible.builtin.include_role:
         name: zilux.tools.install_virthost

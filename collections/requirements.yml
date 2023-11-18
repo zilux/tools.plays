@@ -1,0 +1,5 @@
+---
+collections:
+  #- name: satellite.satgitops 
+  #- name: community.general
+  #- name: git@github.com:zilux/satgitops_collection.git
