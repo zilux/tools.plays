@@ -1,6 +1,7 @@
 ---
 - name: Install virtualisation host
-  hosts: localhost
+  hosts: all
+  become: false
   gather_facts: false
 
   tasks:
