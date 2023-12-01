@@ -2,3 +2,5 @@ files/manifest.yml
 ansible-navigator.log
 collections/*
 !collections/requirements.yml
+grub
+inventory

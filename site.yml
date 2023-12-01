@@ -1,7 +1,5 @@
 ---
-
 # Some comment
-
 - name: Install virtualisation host
   hosts: all
   become: false
